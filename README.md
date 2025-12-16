@@ -34,6 +34,7 @@ The application uses a trained **Convolutional Neural Network (CNN)** model to c
 ---
 
 ## 📁 Project Structure
+
 PRODIGY_ML_03_APP
 │
 ├── app.py
@@ -47,24 +48,27 @@ PRODIGY_ML_03_APP
 │
 └── README.md
 
+
 ---
 
 ## ▶️ How to Run the Application Locally
 
 ### 1️⃣ Install dependencies
 
+pip install flask tensorflow numpy pillow
 
 ### 2️⃣ Place the trained model
 Download or copy the trained model file:
 
+cats_vs_dogs_model.h5
+
 and place it inside the project folder.
 
 ### 3️⃣ Run the Flask app
+python app.py
 
 ### 4️⃣ Open in browser
 http://127.0.0.1:5000/
-
-
 
 ---
 
@@ -73,3 +77,4 @@ http://127.0.0.1:5000/
 - The application assumes the model file is available locally when running the app.
 
 ---
+
